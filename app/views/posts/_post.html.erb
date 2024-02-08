@@ -9,4 +9,14 @@
     <%= post.body %>
   </p>
 
+  <p>
+    <strong>Published at:</strong>
+    <%= post.created_at.to_formatted_s(:short) %>
+  </p>
+
+  <p>
+    <strong>Updated at:</strong>
+    <%= post.updated_at.to_formatted_s(:long) %>
+  </p>
+
 </div>
