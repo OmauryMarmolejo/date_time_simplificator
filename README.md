@@ -18,8 +18,8 @@ Ensure you have Rails 7 installed on your system. If not, follow the Rails insta
 Clone this repository and navigate into the project directory:
 
 ```
-git clone [your-repo-link]
-cd [your-project-name]
+git clone date_time_simplificator
+cd date_time_simplificator
 ```
 
 Install the required gems:
